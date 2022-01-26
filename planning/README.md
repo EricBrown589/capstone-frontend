@@ -1,4 +1,4 @@
-### Project Description
+## Project Description
 
 My idea is a random character generation website. The user can create a random character that can be used for writing, drawing, video games, and tabletop games.
 
@@ -8,7 +8,7 @@ My idea is a random character generation website. The user can create a random c
 
 [Back End](https://github.com/EricBrown589/capstone-backend)
 
-### User Stories
+## User Stories
 
 - As a user I should be able to create a random character
 
@@ -18,8 +18,12 @@ My idea is a random character generation website. The user can create a random c
 
 Stretch: As a user I should be able to save my character
 
-### Diagrams
+## Diagrams
+
+#### Wireframe
 
 <img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone%20wireframe.png" width="400">
+
+#### ERD
 
 <img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone%20ERD.png" width="600">
