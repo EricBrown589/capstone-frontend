@@ -22,4 +22,4 @@ Stretch: As a user I should be able to save my character
 
 <img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone%20wireframe.png" width="400">
 
-![ERD]()
+<img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone%20ERD.png" width="600">
