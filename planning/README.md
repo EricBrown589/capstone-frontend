@@ -26,4 +26,4 @@ Stretch: As a user I should be able to save my character
 
 #### ERD
 
-<img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone%20ERD.png" width="600">
+<img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone-ERD.PNG" width="600">
