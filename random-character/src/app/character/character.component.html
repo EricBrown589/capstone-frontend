@@ -1,1 +1,7 @@
-<p>character works!</p>
+<div *ngFor="let character of character">
+    <p>Race: {{character.race.name}}</p>
+    <p>Attribute: {{character.attribute.name}}</p>
+    <p>Armor: {{character.armor.name}}</p>
+    <p>Weapon: {{character.weapon.name}}</p>
+</div>
+<router-outlet></router-outlet>
