@@ -25,7 +25,3 @@ This is an application that allows the user to create a random character that ca
 #### Wireframe
 
 <img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone%20wireframe.png" width="400">
-
-#### ERD
-
-<img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone-ERD.PNG" width="600">
