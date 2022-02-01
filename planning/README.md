@@ -1,4 +1,4 @@
-## Project Description
+## Project proposal
 
 My idea is a random character generation website. The user can create a random character that can be used for writing, drawing, video games, and tabletop games.
 
