@@ -8,7 +8,7 @@ import { Character } from './character';
 })
 export class CharacterService {
 
-  apiUrl = 'http://localhost:9092'
+  apiUrl = 'https://random-character-backend.herokuapp.com/'
 
   constructor(private http: HttpClient) { }
 
