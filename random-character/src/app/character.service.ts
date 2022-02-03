@@ -21,4 +21,8 @@ export class CharacterService {
     const body = {}
     return this.http.post<Character>(`${this.apiUrl}/create-character`, body, {'headers': headers})
   }
+
+  public deleteCharacter(characterId: number): Observable<void> {
+    return this.http.delete<void>(`${this.apiUrl}/delete-character/${characterId}`)
+  }
 }
