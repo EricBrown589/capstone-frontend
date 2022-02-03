@@ -16,7 +16,7 @@ export class CharacterService {
     return this.http.get<Character[]>(`${this.apiUrl}/character`) 
   }
 
-  public createCharacter(character: Character): Observable<any> {
+  public createCharacter(): Observable<any> {
     const headers = {'content-type': 'application/json'}
     const body = {}
     return this.http.post<Character>(`${this.apiUrl}/create-character`, body, {'headers': headers})

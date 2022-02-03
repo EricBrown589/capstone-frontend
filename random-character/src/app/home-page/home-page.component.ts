@@ -18,14 +18,14 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public createCharacter(character: Character): void {
-    this.characterService.createCharacter(character).subscribe((character) => {
+  public createCharacter(): void {
+    this.characterService.createCharacter().subscribe((character) => {
       this.characterService.getCharacter()
     })
   }
 
   public onClick() {
-    this.createCharacter(this.makeCharacter)
+    this.createCharacter()
     this.router.navigateByUrl('/character')
   }
 }

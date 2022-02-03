@@ -38,15 +38,15 @@ export class CharacterComponent implements OnInit {
     }
   }
 
-  public createCharacter(character: Character): void {
-    this.characterService.createCharacter(character).subscribe(() => {
+  public createCharacter(): void {
+    this.characterService.createCharacter().subscribe(() => {
       this.getCharacter()
     })
   }
 
   public reroll() {
     this.removeCharacter()
-    this.createCharacter(this.manipulateCharacter)
+    this.createCharacter()
   }
 
 }
