@@ -9,6 +9,8 @@ import { CharacterService } from '../character.service'
 })
 export class CharacterComponent implements OnInit {
 
+  i = 1
+
   constructor(private characterService: CharacterService) { }
 
   ngOnInit(): void {
@@ -26,13 +28,12 @@ export class CharacterComponent implements OnInit {
   }
 
   public removeCharacter(): void {
-    let i: number = 0
-    if (this.character.length < 100) {
-      this.characterService.deleteCharacter(this.character.length + i).subscribe(() => {
-        console.log(i)
+    if (this.character.length < 2) {
+      this.characterService.deleteCharacter(this.i).subscribe(() => {
+        console.log(this.i)
         this.character.pop ()
-        i++
-        console.log(i) 
+        this.i++
+        console.log(this.i) 
       })
     }
   }
