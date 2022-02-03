@@ -19,7 +19,7 @@ export class HomePageComponent implements OnInit {
   }
 
   public createCharacter(): void {
-    this.characterService.createCharacter().subscribe((character) => {
+    this.characterService.createCharacter().subscribe(() => {
       this.characterService.getCharacter()
     })
   }

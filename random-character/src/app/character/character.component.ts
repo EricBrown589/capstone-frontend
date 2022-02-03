@@ -15,6 +15,7 @@ export class CharacterComponent implements OnInit {
 
   ngOnInit(): void {
     this.getCharacter();
+    alert ("If you don't see a character please refresh!")
   }
 
   public character!: Character[];
