@@ -1,0 +1,9 @@
+<section *ngIf="route.url == '/'">
+    <div>
+        <p>
+            Have you ever wanted...
+        </p>
+    </div>
+    <button (click)="onClick()">Create a character!</button>
+</section>
+<router-outlet></router-outlet>

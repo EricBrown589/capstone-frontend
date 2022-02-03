@@ -1,0 +1,9 @@
+<div *ngFor="let character of character">
+    <p>Race: {{character.race.name}}</p>
+    <p>Attribute: {{character.attribute.name}}</p>
+    <p>Armor: {{character.armor.name}}</p>
+    <p>Weapon: {{character.weapon.name}}</p>
+</div>
+
+<button (click)="reroll()">Reroll character!</button>
+<router-outlet></router-outlet>
