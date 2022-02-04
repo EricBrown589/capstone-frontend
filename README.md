@@ -1,4 +1,4 @@
-# Random Character
+# Random Character Frontend
 
 ## Project Description
 
