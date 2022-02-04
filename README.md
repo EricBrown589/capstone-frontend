@@ -2,7 +2,10 @@
 
 ## Project Description
 
-This is an application that allows the user to create a random character that can be used in writing, drawing, and in games.
+Are you an author, artist, or like playing games but you can't think of an idea for a character? Then this is the right application for you!
+This application generates a random character for you to use in whatever you need! 
+
+[Project backend](https://github.com/EricBrown589/capstone-backend)
 
 ### Technologies Used 
 
