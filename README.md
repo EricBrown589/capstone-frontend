@@ -28,3 +28,10 @@ This application generates a random character for you to use in whatever you nee
 #### Wireframe
 
 <img src="https://github.com/EricBrown589/capstone-frontend/blob/master/planning/diagrams/Capstone%20wireframe.png" width="400">
+
+
+### Future development
+
+- Refactor code and add styling to make the user experience more enjoyable.
+
+- Have a way for the user to choose what aspects of the character are randomized. For example the user has an idea but only knows what weapon and armor they want the character to have, they can lock in the weapon and armor and only randomly generate the rest of the aspects.
