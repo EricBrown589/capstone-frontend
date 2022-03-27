@@ -14,13 +14,13 @@ export class CharacterService {
   constructor(private http: HttpClient) { }
 
   public getCharacter(): Observable<Character[]> {
-    return this.http.get<Character[]>(`${this.apiUrl}` + `/character`) 
+    return this.http.get<Character[]>(`${this.apiUrl}` + `character`) 
   }
 
   public createCharacter(): Observable<any> {
     const headers = {'content-type': 'application/json'}
     const body = {}
-    return this.http.post<Character>(`${this.apiUrl}` + `/create-character`, body, {'headers': headers})
+    return this.http.post<Character>(`${this.apiUrl}` + `create-character`, body, {'headers': headers})
   }
 
   public deleteCharacter(characterId: number): Observable<void> {
